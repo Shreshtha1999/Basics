@@ -2,41 +2,42 @@
 
 using namespace std;
 
-void count_no_of_extracts(int n){
-
-    int counter = 0;
-    while(n >0){
-
-        int last_digit = n%10;
-
-        counter = counter + 1;
-
-        cout << counter << " ";
-
-        cout << last_digit;
+void count_no_of_extracts(int N){
+        
+        
+        int temp = N;
+        
+        // N=2446
+           int count =0 ;
+        
+        while(N>0){
+            
+          int last_digit = N%10;//6//7//8//7
+            
+            
+             
+            
+            if(last_digit !=0 && temp%last_digit == 0){
                 
-
-        cout << endl;
-
-        n=n/10;
-
-
-
+                count = count +1;
+                
+            }
+                 N=N/10;
+                
+        }
+        
+        cout << count;
+        
         
     }
 
-   
-
-
-}
-
 int main(){
 
-    int n ;
+    int N ;
 
     cout << "Enter the value of n: ";
 
-    cin >> n;
+    cin >> N;
 
-    count_no_of_extracts(n);
+    count_no_of_extracts(N);
 }
