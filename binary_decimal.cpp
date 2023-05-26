@@ -23,11 +23,13 @@ void binaryDecimal(int n){
 
         // In order to go to the next digit
 
-           cout << ans ;
+           n = n/10;
+
+           i++;
 
         }
-
-        n = n/10;
+    cout << ans ;
+        
     }
 }
 
