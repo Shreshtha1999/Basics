@@ -22,12 +22,14 @@ void binaryDecimal(int n){
             ans = ans + pow(2,i);
 
         // In order to go to the next digit
-
-           n = n/10;
-
-           i++;
-
+            cout << ans ;
+        
         }
+
+        n = n/10;
+
+        i++;
+
     cout << ans ;
         
     }
