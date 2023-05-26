@@ -26,11 +26,27 @@ void decimalBinary(int n){
 
 int main (){
 
+    int t ;
+
+
+    cout << "Enter no. of testcases: ";
+
+    cin >> t;
+
+    for (int i = 0 ; i < t ; i++){
+
     int n ;
 
-    cout << "Enter value of n: ";
+    cout << "Enter value of n: " << endl;
 
     cin >> n ;
 
     decimalBinary(n);
 }
+
+
+    }
+
+    
+
+    
