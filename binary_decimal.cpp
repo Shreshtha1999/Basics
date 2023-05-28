@@ -22,7 +22,7 @@ void binaryDecimal(int n){
             ans = ans + pow(2,i);
 
         // In order to go to the next digit
-            cout << ans ;
+            // cout << ans ;
         
         }
 
