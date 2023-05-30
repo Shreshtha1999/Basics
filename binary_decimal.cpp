@@ -26,7 +26,7 @@ void binaryDecimal(int n){
         
         }
 
-        n = n/10;
+        // n = n/10;
 
         i++;
 
